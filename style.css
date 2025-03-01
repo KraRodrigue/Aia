@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+body{
+    height: 275vh;
+    background: url(./Images/dima-panyukov-EiYV7GWsR78-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(2px);    
+}
+
+/*la navigation de ma page*/
+
+.nvgt{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+    border: 4px solid  #fff;
+    border-radius: 15px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo{
+    font-size: 35px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.list li{
+    font-size: 30px;
+
+}
+
+/*le corps de ma page*/
+
+/* preminere section : les annonce */
+
+.annonce{
+    background-color: #4f4d4d79;
+    height: 68vh;
+    display: flex;
+    margin:0 20px 0 20px;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    padding: 15px 0 0 20px;
+}
+
+.left h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 0 0 20px 20px;
+
+}
+
+.left p{
+    color: #000;
+    font-size: 30px;
+    margin-left:30px;
+
+}
+
+.left img{
+    height: 240px;
+    margin-left: 50px;
+    display: block;
+}
+
+
+.btn {
+    position: relative;
+    bottom: 30px;
+}
+
+.left button{
+    width: 90px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    background-color: #0000005b;
+    margin:0 40px 0 80px;
+}
+
+.right{
+    width: 50%;
+    height: 100%;
+}
+
+ .two-image{
+    background-color: #000000a7;
+    height: 93%;
+    width: 80%;
+    margin: 12px 0 0 70px;
+}
+
+.two-image .image1 {
+    height: 290px;
+    width: 260px;
+    position: relative;
+    top: 60px;
+    left: -70px;
+}
+
+.two-image .image2 {
+    height: 180px;
+    width: 180px;
+    position: relative;
+    top: -90px;
+    right: -15px;
+}
+
+.two-image .image3{
+    height: 180px;
+    width: 180px;
+    position: relative;
+    right: -280px;
+    bottom: 75px;
+    
+}
+
+/******deuxime section : la galerie******/
+
+
+.galerie{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.car1{
+    margin: 50px 0 0 150px;
+    background-color: #4f4d4d79;
+    width: 420px;
+    height: 270px;
+}
+
+.car1 img{
+    position: relative;
+    top: 35px;
+    left: -80px;
+    width: 380px;
+    height: 200px;
+    
+}
+
+.car2{
+    margin:0 0 0 700px;
+    position: relative;
+    top: -60px;
+    background-color: #4f4d4d79;
+    width: 420px;
+    height: 270px;
+}
+
+.car2 img{
+    position: relative;
+    width: 380px;
+    height: 200px;
+    left: 90px;
+    top: 35px;
+}
+
+.car3{
+    position: relative;
+    top: -40px;
+    margin:0 0 0 360px;
+    background-color: #4f4d4d79;
+    width: 550px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car3 img{
+    margin-top:50px ;
+    width: 400px;
+}
+
+.neant{
+    width: 100%;
+    height: 100px;
+}
+
+.bottom{
+    height: 150px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #706d6d6d;
+}
+
+
+
+/*****le pied et la fin de ma page*****/
+
+h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h4{
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+.pied{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.pied ul{
+    list-style: none;
+}
+
+.pied ul li{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bottom p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
